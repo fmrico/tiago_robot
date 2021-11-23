@@ -27,9 +27,9 @@ def get_tiago_hw_arguments(
         end_effector=False,
         ft_sensor=False,
         camera_model=False,
-        default_arm="right-arm",
+        default_arm="no-arm",
         default_wrist_model="wrist-2010",
-        default_end_effector="pal-hey5",
+        default_end_effector="no-end-effector",
         default_ft_sensor="schunk-ft",
         default_camera_model="orbbec-astra",
         **kwargs):
