@@ -56,11 +56,11 @@ def generate_launch_description():
             'tiago_controller_configuration',
             ['launch', 'head_controller.launch.py']),
 
-        include_launch_py_description(
-            'tiago_controller_configuration',
-            ['launch', 'arm_controller.launch.py']),
+        # include_launch_py_description(
+        #     'tiago_controller_configuration',
+        #     ['launch', 'arm_controller.launch.py']),
 
-        include_launch_py_description(
-            'tiago_controller_configuration',
-            ['launch', LaunchConfiguration('end_effector_controller_launch')])
+        # include_launch_py_description(
+        #     'tiago_controller_configuration',
+        #     ['launch', LaunchConfiguration('end_effector_controller_launch')])
     ])
